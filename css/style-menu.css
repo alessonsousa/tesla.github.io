@@ -1,0 +1,370 @@
+body {
+    font-family: "Orbitron", sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: grid;
+    grid-template-rows: auto auto;
+}
+
+.container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+
+.menu nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.menu nav ul li a {
+    color: #9a9999;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.menu nav ul li a:hover {
+    color: #212121;
+}
+
+.menu ul li a.active {
+    color: #212121;
+}
+
+footer {
+    padding: 60px 0;
+}
+
+.menu-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+}
+
+.img-preta {
+    width: 120px;
+    height: auto;
+}
+
+.menu-footer ul {
+    display: flex;
+    gap: 40px;
+}
+
+.menu-footer ul li a {
+    text-decoration: none;
+    color: #212121;
+    font-size: 10px;
+}
+
+.footer-block-text {
+    width: 600px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #828282;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: Inter;
+}
+
+.footer-block-text p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
+
+.btn-primary {
+    background-color: #3e6ae1;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    background-color: #212121;
+    transition: all 0.3s;
+}
+
+.btn-secondary {
+    background-color: #ffffff;
+    border: none;
+    color: #828282;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.full-banner {
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 60px 0;
+}
+
+.full-banner h2 {
+    color: #fff;
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 20px;
+}
+
+.product-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu-primary {
+    display: flex;
+    margin-top: 60px;
+    height: 60vh;
+}
+
+.car-primary {
+    width: 30%;
+    margin-top: 60px;
+}
+
+.car-primary h2 {
+    color: #9A9999;
+    text-transform: uppercase;
+}
+
+.configure {
+    width: 60%;
+    margin-top: 60px;
+    margin-left: 10%;
+}
+
+.configure h2 {
+    margin-bottom: 30px;
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.cabecalho-table h2 {
+    color: #212121;
+    text-transform: uppercase;
+}
+
+.your-choice {
+    text-align: center;
+}
+
+.your-choice h2{
+    font-weight: bold;
+    color: #212121;
+}
+
+.your-choice img {
+    width: 90%;
+}
+
+.form-container {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #9A9999;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="password"],
+.form-container input[type="date"],
+.form-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-container input[type="submit"] {
+    width: 100%;
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.table {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* 4 colunas de largura igual */
+    width: 100%;
+    border-bottom: 3px solid #333;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.cell {
+    padding: 10px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.form-container {
+    margin: 0 auto;
+    border-bottom: 3px solid #333;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+    border-radius: 0 !important;
+}
+
+.form-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Duas colunas */
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    font-size: 14pt;
+    height: 40px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none !important;
+    border-top: 3px solid transparent;
+    border-radius: 0 !important;
+    /* Cantos quadrados */
+    outline: none;
+    transition: border-top-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    height: 38px;
+    border-top: #1e1e1e solid 2px !important;
+    border-top-color: #1e1e1e !important;
+}
+
+.valores {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 40px;
+    padding-bottom: 40px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.name {
+    text-align: right;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.value {
+    text-align: left;
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+
+.valores-botao{
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+}
+.btn-primary-valores {
+    background-color: #F0F0F0;
+    border: #1e1e1e solid 2px;
+    color: #212121;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.btn-primary-valores:hover {
+    background-color: #212121;
+    transition: all 0.3s;
+    color: #ffffff ;
+}
+
+.btn-secondary-valores:hover {
+    background-color: #F0F0F0;
+    transition: all 0.3s;
+    color: #212121;
+
+}
+
+.btn-secondary-valores {
+    background-color: #212121;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: orbitron;
+    font-size: 10px;
+    padding: 15px 80px;
+    border-radius: 2px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
