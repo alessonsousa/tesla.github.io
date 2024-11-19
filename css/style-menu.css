@@ -6,12 +6,15 @@ header {
     background-color: #f1f1f1;
 }
 
+
 .container {
-    max-width: 1240px;
+    max-width: 100%;
     margin: 0 auto;
     display: flex;
     flex-direction: grid;
     grid-template-rows: auto auto;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .container-flex {
@@ -19,6 +22,10 @@ header {
     justify-content: space-between;
     align-items: center;
     height: 60px;
+}
+
+.menu {
+margin-left: 600px;
 }
 
 .menu nav ul {
@@ -83,8 +90,15 @@ footer {
     line-height: 1.8;
 }
 
-.btn-primary {
-    background-color: #3e6ae1;
+.product-details{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 250px;
+}
+
+.btn-primary{
+    background-color: #3E6AE1;
     border: none;
     color: #fff;
     text-transform: uppercase;
@@ -96,13 +110,12 @@ footer {
     cursor: pointer;
 }
 
-.btn-primary:hover,
-.btn-secondary:hover {
+.btn-primary:hover, .btn-secondary:hover{
     background-color: #212121;
     transition: all 0.3s;
 }
 
-.btn-secondary {
+.btn-secondary{
     background-color: #ffffff;
     border: none;
     color: #828282;
@@ -114,6 +127,7 @@ footer {
     transition: all 0.3s;
     cursor: pointer;
 }
+
 
 .full-banner {
     background-position: center;
